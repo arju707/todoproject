@@ -108,11 +108,19 @@ body {
     cursor: pointer;
 }
 
-.completed {
-    text-decoration: line-through;
+
+
+.edit{
+    background-color: #8052ec;
+    color: #fff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
     #newtask {
         flex-direction: column;
